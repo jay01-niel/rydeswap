@@ -1,0 +1,196 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.section-headline.text-center.roadmap-heading {
+    margin: auto;
+}
+
+.top-text-title {
+    padding-top: 25px;
+}
+.row.coming-soon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #050830 0%, transparent 100%); 
+    mix-blend-mode: soft-light; 
+}
+
+.row.coming-soon img {
+    mask-image: linear-gradient(to bottom, transparent 10%, white 50%, white 90%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 10%, white 50%, white 90%, transparent 100%);
+  mask-mode: alpha;
+  -webkit-mask-mode: alpha;
+  margin: auto;
+}
+
+.info-images.canvas-image {
+    width: 100%;
+}
+
+.price-box-inner {
+   
+    top: -50px;
+}
+
+
+
+
+.allocation {
+    display: inline-block;
+    width: 30px;
+    height: 10px;
+    margin-right: -25px;
+    /* background-color: aqua; */
+}
+
+.allocation.seed {
+    background-color: #ff6384;
+}
+.allocation.presale {
+    background-color: #36a2eb;
+}
+.allocation.pancake {
+    background-color: #ffce56;
+}
+.allocation.ryde {
+    background-color: #594DAA;
+}
+.allocation.eco {
+    background-color: #A2885D;
+}
+.allocation.unlock {
+    background-color: #1F1AE0;
+}
+.allocation.airdrop {
+    background-color: #756E98;
+}
+.allocation.partner {
+    background-color: #AEEFF0;
+}
+.allocation.staking {
+    background-color: #E081EA;
+}
+.allocation.first-cex {
+    background-color: #AB9053;
+}
+.allocation.second-cex {
+    background-color: #64549C;
+}
+
+#revenue {
+    padding-top: 120px;
+}
+
+#revenue .support-text-list {
+    font-size: 1.5rem;
+    line-height: 2.5;
+    padding-left: -40px;
+}
+
+/* #revenue .col-xl-6.col-lg-6.col-md-12 {
+    width: 700px;
+} */
+
+#revenue .about-all {
+    margin-left: 0;
+    /* width: 800px; */
+    padding-right: 55px;
+}
+#revenue .about-all::before {
+    display: none;
+}
+
+#revenue .about-inner {
+    width: 100%;
+}
+
+p.seed-sale {
+    word-wrap: break-word;
+}
+
+.support-text-list li:before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    margin-right: 10px;
+    background-image: url('./img/icon/s2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .circle img {
+    width: 30%;
+    border-radius: 100%;
+    position: relative;
+    top: -350px;
+    left: 210px;
+    
+}
+
+.footer-menu ul {
+    
+    margin-left: 50%;
+    margin-top: -30px;
+    
+}
+
+.bread-bg {
+    background: url(img/background/bread-bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    padding: 50px 50px;
+    border-radius: 5px;
+    z-index: 1;
+    position: relative;
+}
+
+.bread-bg-img {
+    width: 250px;
+}
+.bread-bg img {
+    position: relative;
+    right: 35px;
+}
+
+#buy-ryd .about-content {
+    margin: 50px 0;
+}
+
+#buy-ryd .row {
+    display: block;
+    width: 1200px;
+}
+
+#audit .wel-content a {
+    position: relative;
+    font-weight: 500;
+    color: #fff;
+}
+
+#audit .row.d-flex.flex-wrap.align-items-center {
+    
+    padding-top: 30%;
+}
+
+#mission-vision .col-xl-6.col-lg-6.col-md-12 {
+    max-width: 100%;
+}
+
+#mission-vision .well-service-text {
+    margin-top: -200px;
+}
+
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
